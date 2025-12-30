@@ -1,0 +1,102 @@
+.contact-section {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #1a1a1a, #050505);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.contact-container {
+  display: flex;
+  gap: 40px;
+  width: 80%;
+  max-width: 1100px;
+}
+
+.contact-left {
+  flex: 1;
+}
+
+.contact-left h2 {
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.contact-left p {
+  margin: 10px 0;
+  color: #ddd;
+}
+
+.socials span {
+  margin-right: 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.socials span:hover {
+  color: rgb(17, 244, 240);
+  text-shadow: 0 0 10px rgb(17, 244, 240);
+}
+
+.divider {
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(255,255,255,0.3),
+    transparent
+  );
+}
+
+.contact-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-right input,
+.contact-right textarea {
+  background: transparent;
+  border: 1px solid #333;
+  padding: 12px;
+  border-radius: 8px;
+  color: #fff;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-right input:focus,
+.contact-right textarea:focus {
+  border-color: rgb(17, 244, 240);
+  box-shadow: 0 0 15px rgba(17, 244, 240, 0.7);
+}
+
+.contact-right textarea {
+  min-height: 120px;
+}
+
+.contact-right button {
+  margin-top: 10px;
+  padding: 14px;
+  background: rgb(17, 244, 240);
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-right button:hover {
+  box-shadow: 
+    0 0 20px rgba(17, 244, 240, 0.9),
+    0 0 40px rgba(17, 244, 240, 0.6);
+  transform: translateY(-2px);
+}

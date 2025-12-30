@@ -1,0 +1,130 @@
+.dis{
+   
+    background-color: black;
+}
+/* .align img{
+    width: 450px;
+    height: 500px;
+    margin-left: 175px;
+    margin-bottom: 100px;
+} */
+.icons{
+    color: rgb(17, 244, 240);
+    font-size: 25px;
+   display: flex;
+   gap: 20px;  
+    
+   
+    padding-bottom: 30px;
+
+     /* animation: slideEaseIn 1s ease-in forwards;
+    animation-delay: 0.7s; */
+    
+}
+
+
+
+
+.slide-in {
+  transform: translateX(-100px);
+  opacity: 0;
+  animation: slideEaseIn 1s ease-in forwards;
+}
+
+.slide-in.delay {
+  animation-delay: 0.3s;
+}
+.slide-in.delay1 {
+  animation-delay: 0.3s;
+}
+
+@keyframes slideEaseIn {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slide-in1 {
+  transform: translateX(100px);
+  opacity: 0;
+  animation: slideEaseIn 1s ease-in forwards;
+}
+.person-wrapper {
+  position: relative;
+  width: 320px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Person image */
+.person-img {
+  width: 800px;
+  height: 1000px;
+  margin-bottom: 400px;
+  margin-left: 400px;
+  margin-top: 120px;
+  z-index: 2;
+}
+
+/* Ellipse ring */
+.base-ring {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  z-index: 1;
+  margin-left: 400px;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Subtle motion */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+.base-ring ellipse {
+  filter: drop-shadow(0 0 6px rgba(255,45,85,0.6));
+}
+.slide-in{
+  color: white;
+}
+.git{
+  color: rgb(17, 244, 240) ;
+  width: 45px;
+  height: 45px;
+  /* border: 1px rgb(17, 244, 240); */
+  /* border: 2px solid #ee020e; */
+border: 2px solid rgb(17, 244, 240);
+border-radius: 30px;
+display: flex;
+
+  justify-content: center; /* horizontal center */
+  align-items: center;  
+ 
+  
+     /* vertical center */
+  
+ 
+}
+.hero-image img {
+  width: 380px;
+  filter: drop-shadow(0 0 40px rgb(17, 244, 240));
+}
+
+/* RESPONSIVE */
+
+
+  .hero-image img {
+    width: 500px;
+    height: 600px;
+    padding-bottom: 200px;
+    padding-left: 350px;
+  }
+  .git:hover{
+    box-shadow:
+    0 0 20px rgba(17, 244, 240, 0.9),
+    0 0 40px rgba(17, 244, 240, 0.6);
+  transform: translateY(-2px);
+  }
