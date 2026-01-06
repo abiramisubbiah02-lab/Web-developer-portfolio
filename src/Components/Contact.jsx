@@ -54,8 +54,8 @@ const Contact = () => {
 
             <h6>Connect with me</h6>
             <div className="icons">
-             <span className='git'>
-                       <FaGithub />
+              <span >
+                      <a className='git' href='https://github.com/abiramisubbiah02-lab' target='blank'> <FaGithub /></a>
                        </span>
                        <span >
                          <a className='git' href="https://www.linkedin.com/in/abirami-subbiah-uiux" target='blank'> <FaLinkedinIn /></a>

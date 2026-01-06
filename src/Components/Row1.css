@@ -1,6 +1,7 @@
 .dis{
    
     background-color: black;
+    padding-top: 100px;
 }
 /* .align img{
     width: 450px;
@@ -18,7 +19,7 @@
     padding-bottom: 30px;
 
      /* animation: slideEaseIn 1s ease-in forwards;
-    animation-delay: 0.7s; */
+    animation-delay: 0.7s; */ 
     
 }
 
@@ -73,7 +74,7 @@
   position: absolute;
   bottom: 30px;
   width: 100%;
-  z-index: 1;
+  z-index: 0;
   margin-left: 400px;
   animation: float 3s ease-in-out infinite;
 }
@@ -109,7 +110,7 @@ display: flex;
  
 }
 .hero-image img {
-  width: 380px;
+  width: 480px;
   filter: drop-shadow(0 0 40px rgb(17, 244, 240));
 }
 
@@ -117,10 +118,10 @@ display: flex;
 
 
   .hero-image img {
-    width: 500px;
-    height: 600px;
-    padding-bottom: 200px;
-    padding-left: 350px;
+    width: 800px;
+    height: 1000px;
+    padding-bottom: 350px;
+    padding-left: 380px;
   }
   .git:hover{
     box-shadow:

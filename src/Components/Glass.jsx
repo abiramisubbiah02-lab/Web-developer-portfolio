@@ -18,7 +18,7 @@ const skills = [
 
 const Glass = () => {
   return (
-    <section className="skills-section" id="skills">
+    <section className="skills-section" id="Skills">
       <h1 className="skills-title">Skills</h1>
       <p className="skills-subtitle">
         Technologies I use to build clean and scalable interfaces.

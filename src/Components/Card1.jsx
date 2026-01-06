@@ -4,7 +4,7 @@ import "./Card1.css";
 
 const Card1 = () => {
   return (
-    <section className="whatido-section" id="serving">
+    <section className="whatido-section" id="Serving">
       <h5 style={{color:"white"}}>My Services</h5>
       <h2 className="section-title">What I do</h2>
 

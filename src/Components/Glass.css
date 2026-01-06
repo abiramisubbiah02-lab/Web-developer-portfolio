@@ -96,5 +96,22 @@
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
   pointer-events: none;
 }
+#Skills {
+  scroll-margin-top: 100px;
+}
+@media (max-width: 600px) {
+  .skills-section {
+    height: auto;
+    padding: 40px 5%;
+  }
+
+  .skills-wrapper {
+    gap: 30px;
+  }
+
+  .glass-card {
+    height: 160px;
+  }
+}
 
 
